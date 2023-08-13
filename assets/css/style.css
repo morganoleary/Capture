@@ -19,13 +19,28 @@ body {
 
 /* Header */
 header {
-    background-color: grey;
+    background-color: #222426;
     font-family: 'Tenor Sans', sans-serif;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header div {
+    font-family: 'Tenor Sans', sans-serif;
+    color: #bfb6aa;
+    padding: 5px;
 }
 
 h1 {
     font-family: 'Tenor Sans', sans-serif;
-    
+    color: #bfb6aa;
 }
 
 /* Main Content */
