@@ -51,7 +51,12 @@ header div {
 #menu {
     list-style-type: none;
     display: flex;
+    text-align: center;
     padding-top: 10px;
+    width: 50%;
+    vertical-align: middle;
+    margin: 0 21%;
+
 }
 
 #menu>li {
@@ -59,9 +64,8 @@ header div {
     border: 1px solid #bfb6aa;
     border-radius: 5%;
     font-size: 75%;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
+
 }
 
 .active {
