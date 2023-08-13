@@ -15,7 +15,6 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #bfb6aa;
-
 }
 
 /* Header */
@@ -24,14 +23,21 @@ header {
     font-family: 'Tenor Sans', sans-serif;
 }
 
+h1 {
+    font-family: 'Tenor Sans', sans-serif;
+    
+}
+
 /* Main Content */
 main {
     background-color: beige;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Footer */
 footer {
     background-color: red;
+    font-family: 'Raleway', sans-serif;
 }
