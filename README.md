@@ -1,39 +1,121 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Capture Photo Studio
 
-Welcome,
+Capture Photo Studio's site hopes to provide clients a space, wherever that may be, to create lasting memories and capture special moments that are, often times, missed. We hope to draw attention to the irony of constantly taking photos, but missing meaningful moments by not allowing ourselves to be present. Our dedicated team is here to ensure those special moments are captured and cherished for lifetimes. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The site will be targeted toward people who want to book a photo shoot and keep memories safe through photography. The site will help people navigate through our services, gallery portfolio and contact us for more information.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+## User Experience (UX)
 
-## Codeanywhere Reminders
+- ### User Stories:
+	- As a first-time user:
+		- I want to be able to see their work in order to know if they offer good services.
+		- I want to se testimonials from previous clients to see if the feedback is positive.
+		- I want to be able to contact them to book a session or ask further questions.
+	
+	- As a returning visitor:
+		- I want to be able to navigate to further social media sites to see more work and reviews of the company.
+		- I want to easily find a way to contact the business- if I haven’t already.
+		- I want to see the business location in proximity to me.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+	- As a frequent visitor:
+		- I want to be able to keep in touch with the business “Sign up to our newsletter”
+		- I want to be able to post a review after having a successful session with them (Trustpilot)
 
-`python3 -m http.server`
+- ### Design:
+	- Colour Scheme -tbc
+	- Typography -tbc
+	- Imagery -tbc
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- ### Wireframe:
+	- # Capture Photo Studio
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Capture Photo Studio's site hopes to provide clients a space, wherever that may be, to create lasting memories and capture special moments that are, often times, missed. We hope to draw attention to the irony of constantly taking photos, but missing meaningful moments by not allowing ourselves to be present. Our dedicated team is here to ensure those special moments are captured and cherished for lifetimes. 
 
-`http_server`
+The site will be targeted toward people who want to book a photo shoot and keep memories safe through photography. The site will help people navigate through our services, gallery portfolio and contact us for more information.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Experience (UX)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- ### User Stories:
+	- As a first-time user:
+		- I want to be able to see their work in order to know if they offer good services.
+		- I want to se testimonials from previous clients to see if the feedback is positive.
+		- I want to be able to contact them to book a session or ask further questions.
+	
+	- As a returning visitor:
+		- I want to be able to navigate to further social media sites to see more work and reviews of the company.
+		- I want to easily find a way to contact the business- if I haven’t already.
+		- I want to see the business location in proximity to me.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+	- As a frequent visitor:
+		- I want to be able to keep in touch with the business “Sign up to our newsletter”
+		- I want to be able to post a review after having a successful session with them (Trustpilot)
 
-To log into the Heroku toolbelt CLI:
+- ### Design:
+	- Colour Scheme 
+	- Typography
+	- Imagery
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- ### Wireframe:
+    ![Alt text](<assets/favicon_io/Capture Photo Studio.Balsamiq.png>)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
----
+To be continued...
 
-Happy coding!
+### Existing Features:
+
+- To be continued...
+- To be continued...
+
+## Technologies Used
+
+- Languages Used...
+- Programs Used...
+
+## Testing
+
+To be continued...
+
+## Deployment
+
+To be continued...
+
+## Credits
+
+### Content: 
+
+- To be continued...
+
+### Media:
+
+- To be continued...
+
+
+
+## Features
+
+To be continued...
+
+### Existing Features:
+
+- To be continued...
+- To be continued...
+
+## Technologies Used
+
+- Languages Used...
+- Programs Used...
+
+## Testing
+
+To be continued...
+
+## Deployment
+
+To be continued...
+
+## Credits
+
+To be continued...
+
+
