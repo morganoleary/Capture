@@ -92,10 +92,21 @@ header div {
 
 /* Main Content */
 main {
-    background-color: beige;
+    width: 100%;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     font-family: 'Raleway', sans-serif;
+}
+
+.fireworks-img {
+    position: absolute;
+    margin-top: 100px;
+    width: auto;
+    height: fit-content;
+    /* This will not wrap on screens less than 400px wide.
+    Div wil expand to fill available space on row */
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
 /* Footer */
