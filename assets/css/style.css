@@ -28,7 +28,7 @@ header {
     height: 15vh;
     z-index: 99;
     text-align: center;
-    position: fixed;
+    position: absolute;
 }
 
 header a {
@@ -94,29 +94,27 @@ header div {
 }
 
 /* Main Content */
-main {
-    height: auto;
+.main-container {
+    height: 600px;
     width: 100%;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     font-family: 'Raleway', sans-serif;
-
 }
 
 .fireworks-img {
-    position: absolute;
     margin-top: 98px;
-    width: 100%;
+    max-width: 100%;
     height: 550px;
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
 }
 
 .about-us {
-    position: relative;
     height: 20px;
     width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-direction: wrap;
     margin-top: 400px;
     padding: 10%;
     border: 1px solid #222426;
@@ -128,7 +126,8 @@ main {
     background-color: #a68f7b;
     color: #222426;
     border: 1px solid #222426;
-    display: inline-block;
+    display: flex;
+    flex-direction: wrap;
 }
 
 /* Footer */
