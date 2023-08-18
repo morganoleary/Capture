@@ -161,12 +161,27 @@ header div {
     color: #222426;
     border-bottom: 2px solid #222426;
     display: flex;
-    flex-direction: wrap;
+    flex-direction: column;
     justify-content: center;
 }
 
 .testimonials-container {
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
+    text-align: center;
+    padding: 10%;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    /* Allows carousel to scroll */
+    overflow-x: auto;
+}
+
+.carousel div {
+    flex-shrink: 0;
+    width: 5%;
+    height: 5%;
 }
 
 /* Footer */
