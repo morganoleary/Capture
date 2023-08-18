@@ -148,9 +148,25 @@ header div {
     align-items: center;
 }
 
-
 .photo-types-phrase {
-    padding: 4%;
+    padding: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-wrap: balance;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: #a68f7b;
+    color: #222426;
+    border-bottom: 2px solid #222426;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+
+.testimonials-container {
+    font-family: 'Tenor Sans', 'Verdana', sans-serif;
 }
 
 /* Footer */
