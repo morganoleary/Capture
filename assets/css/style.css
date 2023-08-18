@@ -107,7 +107,7 @@ header div {
 }
 
 .fireworks-img img {
-    height: 81vh;
+    display: flex;
     width: 100%;
 }
 
@@ -117,7 +117,7 @@ header div {
     flex-direction: column;
     align-items: center;
     padding: 10%;
-    border: 1px solid #222426;
+    border-bottom: 2px solid #222426;
     background-color: #a68f7b;
     color: #222426;
 }
@@ -134,17 +134,21 @@ header div {
 .photo-types {
     background-color: #a68f7b;
     color: #222426;
-    border: 1px solid #222426;
+    border-bottom: 2px solid #222426;
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding: 10%;
 }
 
 .photo-types-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+
+.photo-types-phrase {
+    padding: 4%;
 }
 
 /* Footer */
