@@ -184,7 +184,15 @@ header div {
 }
 
 /* Gallery page */
+#gallery {
+    width: 100%;
 
+}
+
+#photos {
+    display: flex;
+    flex-direction: column;
+}
 
 /* Footer */
 .footer-container {
