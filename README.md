@@ -22,16 +22,18 @@ The site will be targeted toward people who want to book a photo shoot and keep 
 		- I want to be able to post a review after having a successful session with them (Trustpilot)
 
 - ### Design:
-	- Colour Scheme 
-	- Typography
-	- Imagery
+	- Color Scheme :
+	![Color scheme](image.png)
+	- Tenor Sans is the main font used throughout the site with Verdanna being the fallback font, in case there are issues with the font working correctly on different browsers. Tenor Sans offers the user a simple and clean read while drawing their attention with sharp lines.
+	- Imagery is key, as this is a photographers website. The images chosen are designed to be eye-catching and show the strengths of the business' success. Modern, moody and simple.
 
 - ### Wireframe:
-    ![Alt text](<assets/favicon_io/Capture Photo Studio.Balsamiq.png>)
+    ![Balsamiq wireframe](<assets/favicon_io/Capture Photo Studio.Balsamiq.png>)
 
 ## Features
 
-To be continued...
+- Interactive elements
+
 
 ### Existing Features:
 
@@ -40,8 +42,10 @@ To be continued...
 
 ## Technologies Used
 
-- Languages Used...
-- Programs Used...
+- Languages Used: HTML, CSS
+- Programs Used: Balsamiq, Google fonts, Font Awesome, GitHub, Adobe Express, biteable.com, 
+
+
 
 ## Testing
 
