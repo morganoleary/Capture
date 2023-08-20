@@ -258,6 +258,13 @@ header div {
     align-items: center;
 }
 
+#get-in-touch {
+    margin: 8px;
+    padding: 5px;
+    border: 1.5px solid #222426;
+    background-color: #bfb6aa;
+    color: #222426;
+}
 
 /* Footer */
 .footer-container {
