@@ -240,7 +240,7 @@ header div {
 
 .contact-us-form-container p {
     color: #222426;
-    padding-top: 2px;
+    padding: 4px 20px;
 
 }
 
@@ -249,7 +249,6 @@ header div {
     flex-direction: column;
     width: 80%;
     align-items: center;
-    text-wrap: balance;
     padding: 15px;
 }
 
