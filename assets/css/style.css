@@ -195,6 +195,34 @@ header div {
     flex-direction: column;
 }
 
+/* Contact page */
+.contact-page {
+    background-color: #a68f7b;
+
+}
+
+.contact-page-phrase {
+    font-family: 'Tenor Sans', 'Verdana', sans-serif;
+    width: 100%;
+    height: 5%;
+    background-color: #a68f7b;
+    color: #222426;
+    padding: 5px;
+    font-size: 80%;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-image {
+    width: 100%;
+    height: 20%;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Footer */
 .footer-container {
     background-color: #222426;
