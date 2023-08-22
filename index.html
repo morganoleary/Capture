@@ -47,21 +47,23 @@
       <div>Fewer selfies, more photographs.</div>
       <!-- Menu bar -->
       <section class="top-nav-menu">
-        <!-- <input id="menu-toggle" type="checkbox" /> -->
+        <input id="menu-toggle" type="checkbox" class="toggle" />
         <label class="menu-button-container" for="menu-toggle">
           <div class="menu-button"></div>
         </label>
 
         <ul class="menu">
-          <li><a href="index.html" class="active" id="about">About</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="index.html" class="active menu-color" id="about">About</a>
+          </li>
+          <li><a href="gallery.html" class="menu-color">Gallery</a></li>
+          <li><a href="contact.html" class="menu-color">Contact</a></li>
         </ul>
       </section>
     </header>
 
     <!-- Main Content -->
-    <main id="about">
+    <main>
       <!-- Fireworks Image -->
       <section class="fireworks-img">
         <div>
@@ -87,13 +89,13 @@
       <!-- Types of Photography block -->
       <section class="photo-types">
         <div class="photo-types-container">
-          <h2>Moments to capture:</h2>
+          <h2>Moments to capture</h2>
           <hr />
           <p class="photo-types-phrase">
             We'll capture the moments. You just enjoy them.
           </p>
           <hr />
-          <ul>
+          <ul class="photo-types-list">
             <li>Family & Holiday</li>
             <li>Engagement & Anniversary</li>
             <li>Weddings & Special Occasions</li>
@@ -109,24 +111,33 @@
         <div class="testimonials-container">
           <h2>Testimonials</h2>
         </div>
-        <div class="carousel">
-          <div>
-            "I could not give Capture Photo Studio the recognition they deserve.
-            What a great team! They really did capture everyone's personality in
-            our family photo shoot." -Rebekah H.
-          </div>
-          <div>
-            "Anna and her team made us feel so comfortable. Will definitely be
-            booking another session soon!" -David M.
-          </div>
-          <div>
-            "If you are looking for a wedding photographer, look no further! We
-            could not be happier with the moments captured from our special
-            day." -Ellen C.
-          </div>
-          <div>
-            "Don't wait to book a session with Capture. I will cherish these
-            photos forever!" -Venessa M.
+        <div class="carousel-container">
+          <div class="slides">
+            <a href="#slide-1">#1</a>
+            <div id="slide-1">
+              "I could not give Capture Photo Studio the recognition they
+              deserve. What a great team! They really did capture everyone's
+              personality in our family photo shoot." -Rebekah H.
+            </div>
+            <br />
+            <a href="#slide-2">#2</a>
+            <div id="slide-2">
+              "Anna and her team made us feel so comfortable. Will definitely be
+              booking another session soon!" -David M.
+            </div>
+            <br />
+            <a href="#slide-3">#3</a>
+            <div id="slide-3">
+              "If you are looking for a wedding photographer, look no further!
+              We could not be happier with the moments captured from our special
+              day." -Ellen C.
+            </div>
+            <br />
+            <a href="#slide-4">#4</a>
+            <div id="slide-4">
+              "Don't wait to book a session with Capture. I will cherish these
+              photos forever!" -Venessa M.
+            </div>
           </div>
         </div>
       </section>
@@ -138,6 +149,7 @@
       <ul class="social-media-links">
         <li>
           <a
+            class="footer-icon-color"
             href="https://facebook.com/"
             target="_blank"
             rel="noopener"
@@ -147,6 +159,7 @@
         </li>
         <li>
           <a
+            class="footer-icon-color"
             href="https://instagram.com/"
             target="_blank"
             rel="noopener"
@@ -156,6 +169,7 @@
         </li>
         <li>
           <a
+            class="footer-icon-color"
             href="https://youtube.com/"
             target="_blank"
             rel="noopener"
@@ -165,6 +179,7 @@
         </li>
         <li>
           <a
+            class="footer-icon-color"
             href="https://ie.trustpilot.com/"
             target="_blank"
             rel="noopener"

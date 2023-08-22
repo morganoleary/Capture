@@ -18,7 +18,7 @@ body {
     color: #bfb6aa;
 }
 
-/* Header */
+/* Header banner */
 header {
     background-color: #222426;
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
@@ -37,21 +37,22 @@ h1 {
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
     color: #bfb6aa;
     letter-spacing: 2.5px;
-    padding: 5px 20px;
+    padding: 0.5em 1em;
     text-align: left;
     font-size: 110%;
+    text-wrap: wrap;
 }
 
-/* Header phrase */
+/* Header motto-phrase */
 header div {
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
     color: #bfb6aa;
-    padding: 5px;
+    padding: 0.3rem;
     font-size: 80%;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
-
+/* Navigation menu */
 .menu {
     list-style-type: none;
     display: flex;
@@ -62,14 +63,15 @@ header div {
 
 .menu>li {
     font-size: 75%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 0 4px;
+    padding: 0 0.5em;
 }
 
 .active {
     border-bottom: 1px solid #bfb6aa;
+}
+
+.menu-color {
+    color: #bfb6aa;
 }
 
 /* Menu bar */
@@ -81,7 +83,7 @@ header div {
     padding-right: 1rem;
 }
 
-#menu-toggle {
+.toggle {
     display: none;
 }
 
@@ -92,7 +94,7 @@ header div {
 }
 
 /* Hamburger menu */
-.menu-toggle-container {
+.menu-button-container {
     height: 10%;
     width: 10%;
     flex-direction: column;
@@ -117,12 +119,9 @@ header div {
     width: 100%;
 }
 
+/* About Us Block */
 .about-us {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10%;
+    padding: 1em 1.5em;
     border-bottom: 2px solid #222426;
     background-color: #a68f7b;
     color: #222426;
@@ -133,64 +132,101 @@ header div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*horizontal*/
     justify-content: center;
-    /*vertical*/
 }
 
+.about-us p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75em 0;
+}
+
+/* Photo Types Block */
 .photo-types {
     background-color: #a68f7b;
     color: #222426;
     border-bottom: 2px solid #222426;
-    display: flex;
+    padding: 1em;
+    align-items: center;
     justify-content: center;
-    padding: 10%;
+    display: flex;
 }
 
 .photo-types-container {
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+
+.photo-types-container h2 {
+    padding-bottom: .5em;
+    text-align: center;
 }
 
 .photo-types-phrase {
-    padding: 4px;
+    padding: .5em;
     overflow: hidden;
     white-space: nowrap;
     text-wrap: balance;
     text-align: center;
 }
 
+.photo-types-list {
+    padding: 1em;
+}
+
+/* Testimonials block */
 .testimonials {
     background-color: #a68f7b;
     color: #222426;
     border-bottom: 2px solid #222426;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
+/* Testimonials title */
 .testimonials-container {
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
     text-align: center;
-    padding: 10%;
+    padding: 1em 1em 0;
 }
 
-.carousel div {
+/* Testimonials Content */
+.carousel-container {
     display: flex;
-    flex-direction: column;
-    padding: 2%;
+    flex-direction: row;
+    overscroll-behavior: auto;
+    scroll-snap-type: x;
+    scroll-behavior: smooth;
+    padding: .5em;
+    width: 10em;
+    overflow: hidden;
+    text-align: center;
 }
+
+/* Testimonials Carousel
+.slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.slides div {
+    background-color: #bfb6aa;
+    color: #222426;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 20em;
+    height: 20em;
+}
+*/
 
 /* Gallery page */
-#gallery {
+.gallery {
     width: 100%;
-    padding: 0.5%;
     background-color: #222426;
 }
 
-#photos {
+.photos {
     display: flex;
     flex-direction: column;
 }
@@ -204,15 +240,16 @@ header div {
 .contact-page-phrase {
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
     width: 100%;
-    height: 5%;
+    height: 3em;
     background-color: #a68f7b;
     color: #222426;
-    padding: 5px;
-    font-size: 80%;
+    padding: 1em;
+    font-size: 85%;
     letter-spacing: 2px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    text-align: center;
 }
 
 .contact-image {
@@ -236,20 +273,20 @@ header div {
 .contact-us-form-container h1 {
     color: #222426;
     padding-top: 2px;
+    padding: 1em;
+    text-align: center;
 }
 
 .contact-us-form-container p {
     color: #222426;
-    padding: 4px 20px;
+    text-align: center;
 
 }
 
 .contact-us-form {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    align-items: center;
-    padding: 15px;
+    width: 100%;
+    padding: 1em 3.5em;
+    text-align: end;
 }
 
 .radio-container {
@@ -258,9 +295,9 @@ header div {
     align-items: center;
 }
 
-#get-in-touch {
-    margin: 8px;
-    padding: 5px;
+.get-in-touch {
+    margin: 1.5em;
+    padding: .25em;
     border: 1.5px solid #222426;
     background-color: #bfb6aa;
     color: #222426;
@@ -272,7 +309,7 @@ header div {
     font-family: 'Raleway', sans-serif;
     width: 100%;
     height: 5vh;
-    padding: 2px 10px;
+    padding-top: .25em;
 
 }
 
@@ -284,9 +321,12 @@ header div {
 
 }
 
-
 .social-media-links li {
     padding: 2px 6px;
+}
+
+.footer-icon-color {
+    color: #bfb6aa;
 }
 
 /* Media query for tablets and larger (768px +) */

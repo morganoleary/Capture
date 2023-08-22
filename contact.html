@@ -47,15 +47,17 @@
       <div>Fewer selfies, more photographs.</div>
       <!-- Menu bar -->
       <section class="top-nav-menu">
-        <!-- <input id="menu-toggle" type="checkbox" /> -->
+        <input id="menu-toggle" type="checkbox" class="toggle" />
         <label class="menu-button-container" for="menu-toggle">
           <div class="menu-button"></div>
         </label>
 
         <ul class="menu">
-          <li><a href="index.html">About</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li>
+            <a href="index.html" class="active menu-color" id="about">About</a>
+          </li>
+          <li><a href="gallery.html" class="menu-color">Gallery</a></li>
+          <li><a href="contact.html" class="menu-color">Contact</a></li>
         </ul>
       </section>
     </header>
@@ -146,7 +148,12 @@
             <input type="checkbox" name="sign_up" id="sign_up" />
             <label for="sign_up">Sign up to our newsletter!</label>
           </div>
-          <input type="submit" value="Get in touch!" id="get-in-touch" />
+          <input
+            type="submit"
+            value="Get in touch!"
+            id="get-in-touch"
+            class="get-in-touch"
+          />
         </section>
       </section>
     </main>
@@ -157,6 +164,7 @@
       <ul class="social-media-links">
         <li>
           <a
+            class="footer-icon-color"
             href="https://facebook.com/"
             target="_blank"
             rel="noopener"
@@ -166,6 +174,7 @@
         </li>
         <li>
           <a
+            class="footer-icon-color"
             href="https://instagram.com/"
             target="_blank"
             rel="noopener"
@@ -175,6 +184,7 @@
         </li>
         <li>
           <a
+            class="footer-icon-color"
             href="https://youtube.com/"
             target="_blank"
             rel="noopener"
@@ -184,6 +194,7 @@
         </li>
         <li>
           <a
+            class="footer-icon-color"
             href="https://ie.trustpilot.com/"
             target="_blank"
             rel="noopener"
