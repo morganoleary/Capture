@@ -38,13 +38,11 @@ h1 {
     color: #bfb6aa;
     letter-spacing: 2.5px;
     padding: 0.5em 1em;
-    text-align: left;
     font-size: 110%;
-    text-wrap: wrap;
 }
 
 /* Header motto-phrase */
-header div {
+.header-phrase {
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
     color: #bfb6aa;
     padding: 0.3rem;
@@ -76,14 +74,25 @@ header div {
 
 /* Menu bar */
 .top-nav-menu {
-    display: flex;
-    flex-direction: row;
-    height: 5vh;
-    justify-content: space-between;
+    display: none;
     padding-right: 1rem;
+    /* Separate nav-menu from header */
+    position: absolute;
+    width: 100%;
 }
 
+/* Checkbox/toggle */
 .toggle {
+    display: none;
+}
+
+/* When toggle is checked */
+.toggle:checked~nav {
+    display: block;
+}
+
+/* When toggle is not checked */
+.toggle:not(:checked)nav {
     display: none;
 }
 
@@ -91,6 +100,10 @@ header div {
     display: none;
     flex-direction: column;
     justify-content: right;
+}
+
+.menu-button {
+    font-size: larger;
 }
 
 /* Hamburger menu */
@@ -101,10 +114,6 @@ header div {
     display: flex;
     align-items: center;
     justify-content: right;
-}
-
-.toggle {
-    display: none;
 }
 
 /* Main Content */
@@ -285,22 +294,34 @@ header div {
 
 .contact-us-form {
     width: 100%;
-    padding: 1em 3.5em;
-    text-align: end;
+    padding: 1em 1.25em .25em;
+    font-size: 85%;
+}
+
+.text-input {
+    display: flex;
+    justify-content: space-between;
 }
 
 .radio-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.radio-button {
+    display: flex;
+    padding: .25em;
 }
 
 .get-in-touch {
-    margin: 1.5em;
-    padding: .25em;
+    margin: .75em 1.5em;
+    padding: .75em;
     border: 1.5px solid #222426;
-    background-color: #bfb6aa;
+    border-style: double;
+    background-color: #e2dbd3;
     color: #222426;
+    font-size: medium;
+    box-shadow: 2px 2px 2px #222426;
 }
 
 /* Footer */
@@ -329,6 +350,15 @@ header div {
     color: #bfb6aa;
 }
 
+/* Media query for devices smaller than tablets */
+@media (max-width: 345px) {
+
+    /* Show toggle */
+    .menu-button-container {
+        display: flex;
+    }
+}
+
 /* Media query for tablets and larger (768px +) */
 @media screen and (min-width: 768px) {
 
@@ -337,6 +367,7 @@ header div {
         display: block;
         position: relative;
         width: fit-content;
+        margin-left: auto;
     }
 
 

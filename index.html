@@ -44,14 +44,19 @@
         <h1>Capture Photo Studio</h1>
       </a>
       <hr />
-      <div>Fewer selfies, more photographs.</div>
+      <div class="header-phrase">Fewer selfies, more photographs.</div>
       <!-- Menu bar -->
-      <section class="top-nav-menu">
-        <input id="menu-toggle" type="checkbox" class="toggle" />
-        <label class="menu-button-container" for="menu-toggle">
-          <div class="menu-button"></div>
-        </label>
 
+      <input
+        id="menu-toggle"
+        type="checkbox"
+        class="toggle"
+        name="menu-toggle"
+      />
+      <label for="menu-toggle" class="menu-button-container">
+        <div class="menu-button"><i class="fa-solid fa-bars"></i></div>
+      </label>
+      <nav class="top-nav-menu">
         <ul class="menu">
           <li>
             <a href="index.html" class="active menu-color" id="about">About</a>
@@ -59,7 +64,7 @@
           <li><a href="gallery.html" class="menu-color">Gallery</a></li>
           <li><a href="contact.html" class="menu-color">Contact</a></li>
         </ul>
-      </section>
+      </nav>
     </header>
 
     <!-- Main Content -->

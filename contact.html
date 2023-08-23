@@ -47,17 +47,22 @@
       <div>Fewer selfies, more photographs.</div>
       <!-- Menu bar -->
       <section class="top-nav-menu">
-        <input id="menu-toggle" type="checkbox" class="toggle" />
+        <input
+          id="menu-toggle"
+          type="checkbox"
+          class="toggle"
+          name="menu-toggle"
+        />
         <label class="menu-button-container" for="menu-toggle">
           <div class="menu-button"></div>
         </label>
 
         <ul class="menu">
           <li>
-            <a href="index.html" class="active menu-color" id="about">About</a>
+            <a href="index.html" class="menu-color" id="about">About</a>
           </li>
           <li><a href="gallery.html" class="menu-color">Gallery</a></li>
-          <li><a href="contact.html" class="menu-color">Contact</a></li>
+          <li><a href="contact.html" class="active menu-color">Contact</a></li>
         </ul>
       </section>
     </header>
@@ -80,68 +85,98 @@
           <p>We will be in touch to discuss more.</p>
           <div class="contact-us-form">
             <form action="" method="post">
-              <label for="first-name">First Name:</label>
-              <input
-                type="text"
-                id="first-name"
-                name="first_name"
-                placeholder="First name"
-              />
+              <div class="text-input">
+                <label for="first-name">First Name:</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first_name"
+                  placeholder="First name"
+                />
+              </div>
               <br />
-              <label for="last-name">Last Name:</label>
-              <input
-                type="text"
-                id="first-name"
-                name="last_name"
-                placeholder="Last name"
-              />
+              <div class="text-input">
+                <label for="last-name">Last Name:</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="last_name"
+                  placeholder="Last name"
+                />
+              </div>
               <br />
-              <label for="email">Email Address:</label>
-              <input
-                type="email"
-                id="email"
-                name="email_address"
-                placeholder="Email address"
-              />
+              <div class="text-input">
+                <label for="email">Email Address:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email_address"
+                  placeholder="Email address"
+                />
+              </div>
               <br />
-              <label for="phone-number">Phone Number:</label>
-              <input
-                type="number"
-                id="phone-number"
-                name="phone_number"
-                placeholder="Phone number"
-              />
+              <div class="text-input">
+                <label for="phone-number">Phone Number:</label>
+                <input
+                  type="number"
+                  id="phone-number"
+                  name="phone_number"
+                  placeholder="Phone number"
+                />
+              </div>
               <br />
             </form>
           </div>
           <div class="radio-container">
-            <input
-              type="radio"
-              id="wedding"
-              name="photo_type"
-              value="wedding"
-            />
-            <label for="wedding">Engagement/Wedding/Anniversary</label>
-            <input type="radio" id="family" name="photo_type" value="family" />
-            <label for="family">Family</label>
-            <input type="radio" id="couple" name="photo_type" value="couple" />
-            <label for="couple">Couple</label>
-            <input
-              type="radio"
-              id="maternity"
-              name="photo_type"
-              value="maternity"
-            />
-            <label for="maternity">Maternity/Newborn</label>
-            <input
-              type="radio"
-              id="corporate"
-              name="photo_type"
-              value="corporate"
-            />
-            <label for="corporate">Corporate</label>
-            <input type="radio" id="other" name="photo_type" value="other" />
-            <label for="other">Other</label>
+            <div class="radio-button">
+              <input
+                type="radio"
+                id="wedding"
+                name="photo_type"
+                value="wedding"
+              />
+              <label for="wedding">Wedding/Anniversay</label>
+            </div>
+            <div class="radio-button">
+              <input
+                type="radio"
+                id="family"
+                name="photo_type"
+                value="family"
+              />
+              <label for="family">Family</label>
+            </div>
+            <div class="radio-button">
+              <input
+                type="radio"
+                id="couple"
+                name="photo_type"
+                value="couple"
+              />
+              <label for="couple">Couple</label>
+            </div>
+            <div class="radio-button">
+              <input
+                type="radio"
+                id="maternity"
+                name="photo_type"
+                value="maternity"
+              />
+              <label for="maternity">Maternity/Newborn</label>
+            </div>
+            <div class="radio-button">
+              <input
+                type="radio"
+                id="corporate"
+                name="photo_type"
+                value="corporate"
+              />
+              <label for="corporate">Corporate</label>
+            </div>
+            <div class="radio-button">
+              <input type="radio" id="other" name="photo_type" value="other" />
+              <label for="other">Other</label>
+            </div>
           </div>
           <br />
           <div>
@@ -150,7 +185,7 @@
           </div>
           <input
             type="submit"
-            value="Get in touch!"
+            value="Get In Touch!"
             id="get-in-touch"
             class="get-in-touch"
           />
