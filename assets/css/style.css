@@ -350,19 +350,24 @@ h1 {
     color: #bfb6aa;
 }
 
-/* Media query for devices smaller than tablets */
-@media (max-width: 345px) {
-
-    /* Show toggle */
-    .menu-button-container {
-        display: flex;
-    }
-}
-
-/* Media query for tablets and larger (768px +) */
+/* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
+    header {
+        height: auto;
+    }
+
+    h1 {
+        letter-spacing: 2.5px;
+        padding: 0.5em 5em;
+        font-size: revert;
+    }
+
+    .header-phrase {
+        font-size: large;
+    }
+
     .top-nav-menu {
         display: block;
         position: relative;
@@ -370,7 +375,33 @@ h1 {
         margin-left: auto;
     }
 
+    /* Main Content - About Page */
+    .fireworks-img,
+    .fireworks-img img {
+        width: 100%;
+        padding: 1em 5em;
+        background-color: #222426;
+    }
 
+    .about-us div {
+        font-size: x-large;
+    }
+
+    .photo-types-container {
+        font-size: x-large;
+    }
+
+    /* Gallery page */
+    .gallery {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    /* Footer */
+    .footer-container {
+        height: 3vh;
+        padding: .5em;
+    }
 }
 
 /* 992px */

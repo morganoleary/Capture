@@ -43,7 +43,7 @@ The site will be targeted toward people who want to book a photo shoot and keep 
 ## Technologies Used
 
 - Languages Used: HTML, CSS
-- Programs Used: Balsamiq, Google fonts, Font Awesome, GitHub, Adobe Express, biteable.com, 
+- Programs Used: Balsamiq, Google fonts, Font Awesome, GitHub, Adobe Express, biteable.com, tinypng.com
 
 
 
