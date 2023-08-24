@@ -303,6 +303,12 @@ h1 {
     justify-content: space-between;
 }
 
+.choose-session {
+    color: #222426;
+    text-align: center;
+    padding: 1em;
+}
+
 .radio-container {
     display: flex;
     flex-direction: column;
@@ -397,10 +403,60 @@ h1 {
         column-gap: 0;
     }
 
+    /* Contact page */
+    .contact-page-phrase {
+        text-align: center;
+        padding: 1em;
+        font-size: x-large;
+        justify-content: center;
+    }
+
+    .contact-image {
+        padding: .5em 3em;
+    }
+
+    .contact-us-form-container h1 {
+        font-size: x-large;
+    }
+
+    .contact-us-form-container p {
+        font-size: larger;
+    }
+
+    .contact-us-form {
+        padding: 2em;
+        font-size: 110%;
+    }
+
+    .choose-session {
+        font-size: larger;
+    }
+
+    .text-input {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 12em;
+        padding-right: 12em;
+    }
+
+    .radio-container {
+        font-size: x-large;
+    }
+
+    .sign-up {
+        font-size: larger;
+        padding: 1em;
+    }
+
+    .get-in-touch {
+        font-size: larger;
+    }
+
     /* Footer */
     .footer-container {
-        height: 3vh;
+        height: 5vh;
         padding: .5em;
+        font-size: x-large;
     }
 }
 

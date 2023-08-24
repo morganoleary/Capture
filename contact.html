@@ -83,112 +83,124 @@
         <section class="contact-us-form-container">
           <h1>Submit queries for your session here!</h1>
           <p>We will be in touch to discuss more.</p>
-          <div class="contact-us-form">
-            <form action="" method="post">
-              <div class="text-input">
-                <label for="first-name">First Name:</label>
+          
+            <div class="contact-us-form">
+              <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
+                <div class="text-input">
+                  <label for="first-name">First Name:</label>
+                  <input
+                    type="text"
+                    id="first-name"
+                    name="first_name"
+                    placeholder="First name"
+                    required
+                  />
+                </div>
+                <br />
+                <div class="text-input">
+                  <label for="last-name">Last Name:</label>
+                  <input
+                    type="text"
+                    id="first-name"
+                    name="last_name"
+                    placeholder="Last name"
+                    required
+                  />
+                </div>
+                <br />
+                <div class="text-input">
+                  <label for="email">Email Address:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email_address"
+                    placeholder="Email address"
+                    required
+                  />
+                </div>
+                <br />
+                <div class="text-input">
+                  <label for="phone-number">Phone Number:</label>
+                  <input
+                    type="number"
+                    id="phone-number"
+                    name="phone_number"
+                    placeholder="Phone number"
+                    required
+                  />
+                </div>
+                <br />
+            </div>
+            <div class="choose-session">Choose your session below:</div>
+            <div class="radio-container">
+              <div class="radio-button">
                 <input
-                  type="text"
-                  id="first-name"
-                  name="first_name"
-                  placeholder="First name"
+                  type="radio"
+                  id="wedding"
+                  name="photo_type"
+                  value="wedding"
                 />
+                <label for="wedding">Wedding/Anniversay</label>
               </div>
-              <br />
-              <div class="text-input">
-                <label for="last-name">Last Name:</label>
+              <div class="radio-button">
                 <input
-                  type="text"
-                  id="first-name"
-                  name="last_name"
-                  placeholder="Last name"
+                  type="radio"
+                  id="family"
+                  name="photo_type"
+                  value="family"
                 />
+                <label for="family">Family</label>
               </div>
-              <br />
-              <div class="text-input">
-                <label for="email">Email Address:</label>
+              <div class="radio-button">
                 <input
-                  type="email"
-                  id="email"
-                  name="email_address"
-                  placeholder="Email address"
+                  type="radio"
+                  id="couple"
+                  name="photo_type"
+                  value="couple"
                 />
+                <label for="couple">Couple</label>
               </div>
-              <br />
-              <div class="text-input">
-                <label for="phone-number">Phone Number:</label>
+              <div class="radio-button">
                 <input
-                  type="number"
-                  id="phone-number"
-                  name="phone_number"
-                  placeholder="Phone number"
+                  type="radio"
+                  id="maternity"
+                  name="photo_type"
+                  value="maternity"
                 />
+                <label for="maternity">Maternity/Newborn</label>
               </div>
-              <br />
-            </form>
-          </div>
-          <div class="radio-container">
-            <div class="radio-button">
-              <input
-                type="radio"
-                id="wedding"
-                name="photo_type"
-                value="wedding"
-              />
-              <label for="wedding">Wedding/Anniversay</label>
+              <div class="radio-button">
+                <input
+                  type="radio"
+                  id="corporate"
+                  name="photo_type"
+                  value="corporate"
+                />
+                <label for="corporate">Corporate</label>
+              </div>
+              <div class="radio-button">
+                <input
+                  type="radio"
+                  id="other"
+                  name="photo_type"
+                  value="other"
+                />
+                <label for="other">Other</label>
+              </div>
             </div>
-            <div class="radio-button">
-              <input
-                type="radio"
-                id="family"
-                name="photo_type"
-                value="family"
-              />
-              <label for="family">Family</label>
+            <br />
+            <div class="sign-up">
+              <input type="checkbox" name="sign_up" id="sign_up" />
+              <label for="sign_up">Sign up to our newsletter!</label>
             </div>
-            <div class="radio-button">
-              <input
-                type="radio"
-                id="couple"
-                name="photo_type"
-                value="couple"
-              />
-              <label for="couple">Couple</label>
-            </div>
-            <div class="radio-button">
-              <input
-                type="radio"
-                id="maternity"
-                name="photo_type"
-                value="maternity"
-              />
-              <label for="maternity">Maternity/Newborn</label>
-            </div>
-            <div class="radio-button">
-              <input
-                type="radio"
-                id="corporate"
-                name="photo_type"
-                value="corporate"
-              />
-              <label for="corporate">Corporate</label>
-            </div>
-            <div class="radio-button">
-              <input type="radio" id="other" name="photo_type" value="other" />
-              <label for="other">Other</label>
-            </div>
-          </div>
-          <br />
-          <div>
-            <input type="checkbox" name="sign_up" id="sign_up" />
-            <label for="sign_up">Sign up to our newsletter!</label>
-          </div>
-          <input
-            type="submit"
-            value="Get In Touch!"
-            id="get-in-touch"
-            class="get-in-touch"
-          />
+
+            <input
+              type="submit"
+              value="Get In Touch!"
+              id="get-in-touch"
+              class="get-in-touch"
+            />
+          </form>
         </section>
       </section>
     </main>
