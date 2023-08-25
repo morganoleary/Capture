@@ -11,7 +11,7 @@
     />
     <meta
       name="keywords"
-      conten="photographers, photo studio, Cork, Ireland, portraits, family photo, event, event photograghy, wedding, wedding photography"
+      content="photographers, photo studio, Cork, Ireland, portraits, family photo, event, event photograghy, wedding, wedding photography"
     />
     <!-- Title -->
     <title>Capture Photo Studio</title>
@@ -54,7 +54,7 @@
         name="menu-toggle"
       />
       <label for="menu-toggle" class="menu-toggle-label">
-        <div class="menu-button"><i class="fa-solid fa-bars"></i></div>
+        <span class="menu-button"><i class="fa-solid fa-bars"></i></span>
       </label>
       <nav class="top-nav-menu">
         <ul class="menu">
@@ -69,69 +69,74 @@
 
     <!-- Main Content -->
     <main>
-      <section class="contact-page">
+      <div class="contact-page">
         <div class="contact-page-phrase">
           Which moments do you want to capture?
         </div>
         <div class="contact-image">
           <img
-            src="assets/images/image-family living room.webp"
+            src="assets/images/image-family-living-room.webp"
             alt="Happy family in sunny living room"
           />
         </div>
         <!-- Contact us form section -->
         <section class="contact-us-form-container">
-          <h1>Submit queries for your session here!</h1>
+          <h2>Submit queries for your session here!</h2>
           <p>We will be in touch to discuss more.</p>
-          
-            <div class="contact-us-form">
-              <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
-                <div class="text-input">
-                  <label for="first-name">First Name:</label>
-                  <input
-                    type="text"
-                    id="first-name"
-                    name="first_name"
-                    placeholder="First name"
-                    required
-                  />
-                </div>
-                <br />
-                <div class="text-input">
-                  <label for="last-name">Last Name:</label>
-                  <input
-                    type="text"
-                    id="first-name"
-                    name="last_name"
-                    placeholder="Last name"
-                    required
-                  />
-                </div>
-                <br />
-                <div class="text-input">
-                  <label for="email">Email Address:</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email_address"
-                    placeholder="Email address"
-                    required
-                  />
-                </div>
-                <br />
-                <div class="text-input">
-                  <label for="phone-number">Phone Number:</label>
-                  <input
-                    type="number"
-                    id="phone-number"
-                    name="phone_number"
-                    placeholder="Phone number"
-                    required
-                  />
-                </div>
-                <br />
+
+          <form
+            class="contact-us-form"
+            id="contact-form"
+            action="https://formdump.codeinstitute.net"
+            method="POST"
+          >
+            <div class="text-input">
+              <label for="first-name">First Name:</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first_name"
+                placeholder="First name"
+                required
+              />
             </div>
-            <div class="choose-session"><i class="fa-solid fa-camera"></i> Choose your session below:</div>
+            <br />
+            <div class="text-input">
+              <label for="last-name">Last Name:</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last_name"
+                placeholder="Last name"
+                required
+              />
+            </div>
+            <br />
+            <div class="text-input">
+              <label for="email">Email Address:</label>
+              <input
+                type="email"
+                id="email"
+                name="email_address"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <br />
+            <div class="text-input">
+              <label for="phone-number">Phone Number:</label>
+              <input
+                type="number"
+                id="phone-number"
+                name="phone_number"
+                placeholder="Phone number"
+                required
+              />
+            </div>
+            <br />
+            <div class="choose-session">
+              <i class="fa-solid fa-camera"></i> Choose your session below:
+            </div>
             <div class="radio-container">
               <div class="radio-button">
                 <input
@@ -202,7 +207,7 @@
             />
           </form>
         </section>
-      </section>
+      </div>
     </main>
 
     <!-- Footer -->
@@ -215,7 +220,7 @@
             href="https://facebook.com/"
             target="_blank"
             rel="noopener"
-            aria-label="Visit our Facebooke page (Opens in a new tab)"
+            aria-label="Visit our Facebook page (Opens in a new tab)"
             ><i class="fa-brands fa-facebook-f"></i
           ></a>
         </li>
