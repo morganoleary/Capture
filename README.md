@@ -23,7 +23,7 @@ The site will be targeted toward people who want to book a photo shoot and keep 
 
 - ### Design:
 	- Color Scheme :
-	![Color scheme](image.png)
+	![Color scheme](Adobe color palette.webp)
 	- Tenor Sans is the main font used throughout the site with Verdanna being the fallback font, in case there are issues with the font working correctly on different browsers. Tenor Sans offers the user a simple and clean read while drawing their attention with sharp lines.
 	- Imagery is key, as this is a photographers website. The images chosen are designed to be eye-catching and show the strengths of the business' success. Modern, moody and simple.
 
@@ -43,7 +43,7 @@ The site will be targeted toward people who want to book a photo shoot and keep 
 ## Technologies Used
 
 - Languages Used: HTML, CSS
-- Programs Used: Balsamiq, Google fonts, Font Awesome, GitHub, Adobe Express, biteable.com, tinypng.com
+- Programs Used: Balsamiq, Google fonts, Font Awesome, Git, GitHub, coolers.co, Adobe Express, biteable.com, tinypng.com, pixelied.com, cssgradient.io
 
 
 
