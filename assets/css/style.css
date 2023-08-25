@@ -23,8 +23,8 @@ header {
     background-color: #222426;
     font-family: 'Tenor Sans', 'Verdana', sans-serif;
     width: 100%;
-    height: 15vh;
     text-align: center;
+    height: auto;
 }
 
 header a {
@@ -54,76 +54,49 @@ h1 {
     text-align: end;
 }
 
-/* Navigation menu */
+.toggle {
+    display: none;
+}
+
+.menu-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+.top-nav-menu {
+    top: 100%;
+    display: none;
+    text-align: left;
+    left: 0;
+    background-color: #222426;
+    width: 100%;
+}
+
 .menu {
-    list-style-type: none;
-    display: flex;
+    list-style: none;
     letter-spacing: 2px;
 }
 
-.menu>li {
-    font-size: 75%;
-    padding: 0 0.5em;
+.menu-color {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    color: #bfb6aa;
+    font-size: 80%;
+}
+
+.menu li {
+    padding-bottom: .5em;
 }
 
 .active {
     border-bottom: 1px solid #bfb6aa;
 }
 
-.menu-color {
-    color: #bfb6aa;
-}
-
-/* Menu bar */
-.top-nav-menu {
-    display: none;
-    padding-left: 3.5em;
-    margin: -1em;
-    /* Separate nav-menu from header */
-    position: absolute;
-    width: 100%;
-}
-
-/* Checkbox/toggle */
-.toggle {
-    display: none;
-}
-
-/* When toggle is checked */
-.toggle:checked~nav {
+.toggle:checked~.top-nav-menu {
     display: block;
-}
-
-.toggle:checked~header {
-    height: 15vh;
-}
-
-/* When toggle is not checked */
-.toggle:not(:checked)nav {
-    display: none;
-}
-
-.toggle:not(:checked)header {
-    height: 6vh;
-}
-
-.menu-button-container {
-    display: none;
-    align-items: end;
-    width: 10%;
-}
-
-.menu-button {
-    font-size: larger;
-    margin: -1em;
-}
-
-/* Hamburger menu */
-.menu-button-container {
-    height: 20%;
-    flex-direction: column;
-    display: flex;
-
 }
 
 /* Main Content */
@@ -156,10 +129,8 @@ h1 {
     justify-content: center;
 }
 
-.about-us p {
-    display: flex;
-    flex-wrap: wrap;
-    padding: .75em 0;
+.box-2 {
+    padding: .5em;
 }
 
 /* Photo Types Block */
@@ -201,7 +172,6 @@ h1 {
     border-bottom: 2px solid #222426;
     display: flex;
     flex-direction: column;
-    order: 3;
 }
 
 /* Testimonials title */
@@ -212,38 +182,27 @@ h1 {
 }
 
 /* Testimonials Content */
-.carousel-container {
-    /*display: flex;
-    flex-direction: row;
-    overscroll-behavior: auto;
-    scroll-snap-type: x;
-    scroll-behavior: smooth;
-    padding: .5em;
-    width: 10em; */
-    overflow: hidden;
+.quote-container {
     text-align: center;
     padding: 1em;
     border-bottom: 2px solid #222426;
 }
 
-/* Testimonials Carousel
-.slides {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
+.quotes {
+    padding: 1em;
 }
 
-.slides div {
-    background-color: #bfb6aa;
-    color: #222426;
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
-    width: 20em;
-    height: 20em;
+.quotes div {
+    border: 1px ridge #e2dbd3;
+    border-radius: 30px;
+    padding: .75em;
 }
-*/
 
+.quote-3 {
+    padding-top: .5em;
+}
+
+/* Google Map */
 .google-map {
     padding: .5em;
 }
@@ -391,6 +350,7 @@ h1 {
     color: #bfb6aa;
 }
 
+
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -416,6 +376,10 @@ h1 {
         font-size: larger;
     }
 
+    .menu {
+        display: flex;
+    }
+
     .menu-button {
         display: none;
     }
@@ -438,15 +402,23 @@ h1 {
         font-size: x-large;
     }
 
-    .carousel-container {
-        column-count: 2;
+    .testimonials {
+        font-size: larger;
+    }
 
+    .quotes {
+        column-count: 2;
     }
 
     /* Gallery page */
     .gallery {
         column-count: 2;
         column-gap: 0;
+    }
+
+    .photos img {
+        padding-top: 1em;
+        margin: 1em;
     }
 
     /* Contact page */
@@ -487,7 +459,6 @@ h1 {
         padding-right: 6em;
     }
 
-
     .radio-container {
         font-size: x-large;
     }
@@ -509,12 +480,8 @@ h1 {
     }
 }
 
-/* 992px */
-
-
 /* Media query tablets and larger (1200px and wider */
 @media screen and (min-width: 1200px) {
-    /* Header */
 
     /* Main Content */
 
@@ -522,7 +489,6 @@ h1 {
 
     .fireworks-img {
         background: #222426;
-
     }
 
     .fireworks-img img {
@@ -538,14 +504,36 @@ h1 {
         background: radial-gradient(circle, rgba(18, 3, 3, 1) 66%, rgba(61, 12, 12, 1) 100%);
     }
 
+    .box-1 {
+        width: 20%;
+    }
+
+    .box-2 {
+        width: 50%;
+        padding: .75em 0;
+    }
+
+    .box-3 {
+        width: 20%;
+    }
+
     .testimonials {
-        font-size: large;
+        font-size: larger;
+    }
+
+    .quotes {
+        column-count: 2;
     }
 
     /* Gallery Page */
     .gallery {
         column-count: 3;
         column-gap: 0;
+        padding: 2em;
+    }
+
+    .photos img {
+        padding: 2em;
     }
 
     /* Contact Page */
@@ -564,8 +552,8 @@ h1 {
         display: flex;
         flex-direction: inherit;
         justify-content: space-between;
-        padding-left: 6em;
-        padding-right: 6em;
+        padding-left: 12em;
+        padding-right: 12em;
     }
 
     /* Footer */
