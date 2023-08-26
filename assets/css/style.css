@@ -270,11 +270,13 @@ h1 {
     flex-direction: column;
     align-items: center;
     color: #222426;
+    padding: 1em;
+    font-size: 90%;
+    text-align: center;
 }
 
 .contact-us-form-container h1 {
     color: #222426;
-    padding-top: 2px;
     padding: 1em;
     text-align: center;
 }
@@ -282,7 +284,7 @@ h1 {
 .contact-us-form-container p {
     color: #222426;
     text-align: center;
-
+    padding: .5em;
 }
 
 .contact-us-form {
@@ -440,11 +442,13 @@ h1 {
 
     .contact-us-form-container p {
         font-size: larger;
+        padding: 1em;
     }
 
     .contact-us-form {
         padding: 1em 2em;
         font-size: 110%;
+
     }
 
     .choose-session {
@@ -459,17 +463,20 @@ h1 {
         padding-right: 6em;
     }
 
-    .radio-container {
+    .radio-container-2 {
         font-size: x-large;
+        max-width: 30%;
+        margin: auto;
     }
 
     .sign-up {
         font-size: larger;
         padding: 1em;
+        text-align: center;
     }
 
     .get-in-touch {
-        font-size: larger;
+        margin: 1em 20em;
     }
 
     /* Footer */
@@ -546,6 +553,10 @@ h1 {
 
     .contact-us-form {
         padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .text-input {
@@ -554,6 +565,10 @@ h1 {
         justify-content: space-between;
         padding-left: 12em;
         padding-right: 12em;
+    }
+
+    .get-in-touch {
+        font-size: larger;
     }
 
     /* Footer */
