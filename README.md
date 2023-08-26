@@ -137,7 +137,7 @@ This site was deployed to GitHub pages.
 	- Reload page once updated
 	- Click on deployed github-pages link in the right-hand side of the “Code” page.
 
-The live link to this site can be found here - 
+The live link to this site can be found here - https://morganoleary.github.io/Capture/index.html
 
 
 ## Credits
